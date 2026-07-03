@@ -1,0 +1,24 @@
+# GOECKOH Core - Python Backend Requirements
+# Install with: pip install -r requirements_goeckoh.txt
+
+# Core audio processing
+librosa==0.10.1
+soundfile==0.12.1
+scipy==1.11.4
+numpy==1.24.3
+
+# Voice cloning (Coqui TTS)
+TTS==0.22.0
+
+# Machine learning
+torch==2.1.2
+torchaudio==2.1.2
+
+# Data handling
+pandas==2.1.4
+
+# Utilities
+python-dateutil==2.8.2
+
+# Optional: Phoneme recognition
+# montreal-forced-aligner  # Uncomment when needed
